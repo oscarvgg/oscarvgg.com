@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:oscarvgg}",
+            "name": "Debug Oscarvgg",
+            "program": "${workspaceFolder:oscarvgg}/.build/debug/Oscarvgg",
+            "preLaunchTask": "swift: Build Debug Oscarvgg"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:oscarvgg}",
+            "name": "Release Oscarvgg",
+            "program": "${workspaceFolder:oscarvgg}/.build/release/Oscarvgg",
+            "preLaunchTask": "swift: Build Release Oscarvgg"
+        }
+    ]
+}

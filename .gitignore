@@ -1,7 +1,8 @@
 .DS_Store
-Thumbs.db
-db.json
-*.log
+/build
+/.build
+/.swiftpm
+/*.xcodeproj
+.publish
+Output/
 node_modules/
-public/
-.deploy*/
